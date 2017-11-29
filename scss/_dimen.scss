@@ -1,0 +1,59 @@
+// Margin
+@for $i from 0 through 10 {
+  .ml-#{$i * 5} {
+      margin-left: #{$i * 5}px;
+  }
+  .mt-#{$i * 5} {
+      margin-top: #{$i * 5}px;
+  }
+  .mr-#{$i * 5} {
+      margin-right: #{$i * 5}px;
+  }
+  .mb-#{$i * 5} {
+      margin-bottom: #{$i * 5}px;
+  }
+}
+
+// Padding 
+@for $i from 0 through 10 {
+  .pl-#{$i * 5} {
+      padding-left: #{$i * 5}px;
+  }
+  .pt-#{$i * 5} {
+      padding-top: #{$i * 5}px;
+  }
+  .pr-#{$i * 5} {
+      padding-right: #{$i * 5}px;
+  }
+  .pb-#{$i * 5} {
+      padding-bottom: #{$i * 5}px;
+  }
+}
+
+// Height 
+@for $i from 0 through 20 {
+  .height-#{$i * 25} {
+      height: #{$i * 25}px;
+  }
+}
+
+// Height VH
+@for $i from 0 through 20 {
+  .height-vh-#{$i * 5} {
+      height: #{$i * 5}vh;
+  }
+}
+
+// width 
+@for $i from 0 through 20 {
+  .width-#{$i * 25} {
+      width: #{$i * 25}px;
+  }
+}
+
+// Font size 
+@for $i from 0 through 25 {
+  .fs-#{$i * 2} {
+      font-size: #{$i * 2}px;
+  }
+}
